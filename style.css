@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F2F2F2;
+    font-weight: bold;
+    font-family: OpenSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.head{
+     padding: 5px;
+}
+.head-box{
+    
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    background-color:#006bb6 ;
+    line-height: 4rem;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #c3a600;
+    font-style: italic;
+
+}
+
+.head-span{
+    color: #FFFFFF;
+    font-weight: bolder;
+
+}
+.reg{
+     color: #FFFFFF;
+    font-size: 1rem;
+    vertical-align: super;
+}
+
+
+
+
+
+
+.form-box{
+     border: 1px solid  #F2F2F2;
+    padding: 3.5rem;
+    line-height: 5.5rem;
+   display: flex;
+   flex-direction: column;
+   
+}
+.input-box{
+     padding: 10px;
+    line-height: 2.5rem;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+   
+    
+}
+.input-box input{
+    padding: 1rem;
+    background: #F2F2F2;
+    border: 1px solid  rgb(121, 120, 120);
+}
+.check{
+      padding: 15px;
+    line-height: 2.5rem;
+    
+    text-align: left;
+    max-width: 100%;
+}
+.btn{
+     line-height: 2.5rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    max-width: 100%;
+     background:#006bb6;
+    justify-content: center;
+   
+    border-radius: 15px;
+}
+.btn button{
+     padding: 5px;
+    line-height: 2.5rem;
+   
+    background:#006bb6;
+    border: none;
+    color: #FFFFFF;
+    
+}
+
+.forget a{
+     display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: end;
+    padding: 1rem;
+    color: #006bb6;
+    
+}
+
+
+
+.privacy-nav nav{
+    
+    padding: 5px;
+    background: #666666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #006bb6;
+}
+.privacy-nav nav a{
+    color: #F2F2F2;
+    font-weight: bold;
+    border-right: 1px solid #F2F2F2;
+    text-decoration: none;
+    padding: 5px;
+}
+.privacy-nav nav a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.fdic-img{
+    align-items: center;
+    
+    text-align: center;
+    padding: 3rem;
+}
+.img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img2 p{
+    font-size: larger;
+    font-weight: bolder;
+}
+.fdic-img img{
+    align-items: center;
+    text-align: center;
+    max-width: 10%;
+}
+
+/* qureies */
+@media (max-width: 768px){
+    .form-box{
+     border: 1px solid  #F2F2F2;
+    padding: 1.5rem;
+    line-height: 5.5rem;
+   display: flex;
+   flex-direction: column;
+   
+}
+.fdic-img{
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+}
